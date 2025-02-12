@@ -3,7 +3,13 @@
 _recommendation_system
 
 #data folder
-data
+data/raw
+data/processed
+
+# exclude env, test notebook and notes
+.env
+test
+notes.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
